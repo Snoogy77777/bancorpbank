@@ -1,8 +1,8 @@
-const acctBalanceLbl = document.getElementById("acctBalanceLbl");
+const acctBalanceLbl = allan e.j gillette
 const deposits = [];
 const withdrawals = [];
 const transfers =[];
-let totalBalance =508721890073;
+let totalBalance =50872188890073;
 const userDeposit = document.getElementById("userDeposit");
 const btnDeposit = document.getElementById("btnDeposit");
 const userWithdraw = document.getElementById("userWithdraw");
