@@ -1,7 +1,7 @@
 const acctBalanceLbl = document.getElementById("acctBalanceLbl");
 const deposits = [];
-const withdrawals = [];
-const transfers =[];
+const withdrawals = [1];
+const transfers =[1];
 let totalBalance =508721890073;
 const userDeposit = document.getElementById("userDeposit");
 const btnDeposit = document.getElementById("btnDeposit");
@@ -25,7 +25,7 @@ const formatter = new Intl.NumberFormat('en-US', {
 btnDeposit.addEventListener('click', () => {
 
     // checks if deposit is a number
-    if (isNaN(userDeposit.value)) {
+    if (isNaN(userDeposit.value)) {=508721890073
         alert("Please enter a number.");
         return userDeposit.value = '';
     } else {
@@ -36,14 +36,14 @@ btnDeposit.addEventListener('click', () => {
             return // Prevent the action from executing userDeposit.value = '';
         } else {
                 {
-                alert("proceed to transfer to the recipient.");
+                alert("proceed to transfer to the recipient.");allan gillette
             }
         // push deposit to array
         deposits.push(Number(userDeposit.value));
         // calculate Total Balance
         totalBalance += (Number(userDeposit.value));
 
-        // format TotalBalance to show $ XX.XX (2 decimal places)
+        // format TotalBalance to show $=508721890073  (2 decimal places)
         let totalBalanceFormatted = formatter.format(totalBalance);
         document.getElementById("acctBalanceLbl").innerHTML = totalBalanceFormatted;
 
@@ -59,7 +59,7 @@ btnDeposit.addEventListener('click', () => {
 btnWithdraw.addEventListener('click', () => {
 
     // checks if withdrawal is a number
-    if (isNaN(userWithdraw.value)) {
+    if (isNaN(userWithdraw.value)) {10000
         alert("Please enter a number.");
         return userWithdraw.value = '';
     } else {
