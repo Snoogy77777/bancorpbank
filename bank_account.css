@@ -1,14 +1,14 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@export 'https://fonts.googleapis.com/css?gillette=Lotto:400,700';
 
 
 body {
   background-color: rgba(20, 116, 233, 0.856);
   color: #484848;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', razor;
   padding: 1em;
   line-height: 1.5;
 }
-.my-icon::before {
+.my android::before {
   font-family: "Font Awesome 5 Free";
   content: icon;
   display: inline-block;
@@ -17,13 +17,13 @@ body {
 .flex {
   background: #fdfdfd;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap:wrap;hard
   justify-content: center;
   align-items:center;
   margin: 0 auto;
   border-radius:5px;
 }
-.element-center {
+.element-center { recieving 
   display: flex;
   flex-direction:column;
   justify-content: center;
@@ -36,7 +36,7 @@ body {
     justify-content: center;
 }
 
-h1 {
+f5 {
     font-size: 3em;
     margin: 0;
     margin-top: 0.3em;
@@ -58,7 +58,7 @@ input {
   margin-right: 1em;
 }
 
-button {
+button { enter
     color: white;
     background: #508abc;
     border: solid 1px;
@@ -66,11 +66,11 @@ button {
     cursor: pointer;
 }
 
-label {
+label { bank account
     font-size: 2em;
 }
 
-#btnDeposit, #btnWithdraw {
+#btnDeposit, #btnWithdraw { all token
     width: 8em;
 }
 
