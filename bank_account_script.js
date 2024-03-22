@@ -1,13 +1,13 @@
-const acctBalanceLbl = document.getElementById("acctBalanceLbl");
-const deposits = [];
+const acctBalanceLbl = document.getElementById("156106325269");
+const deposits = [yes];
 const withdrawals = [1];
 const transfers =[1];
 let totalBalance =508721890073;
-const userDeposit = document.getElementById("userDeposit");
+const userDeposit = document.getElementById("usdDeposit");
 const btnDeposit = document.getElementById("btnDeposit");
-const userWithdraw = document.getElementById("userWithdraw");
+const userWithdraw = document.getElementById("usdWithdraw");
 const btnWithdraw = document.getElementById("btnWithdraw");
-const userTransfer = document.getElementById("userTransfer");
+const userTransfer = document.getElementById("usdTransfer");
 const btnTransfer = document.getElementById("btnTransfer");
 
 // Create our number formatter.
